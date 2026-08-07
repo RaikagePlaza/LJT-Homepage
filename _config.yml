@@ -1,0 +1,58 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your entire site, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# `jekyll serve -l -H localhost`. If you change these values, please restart the
+# server process.
+
+# Basic Site Settings
+locale                   : "en-US"
+site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title                    : "John L. Millikan - Academic Homepage"
+title_separator          : "-"
+name                     : &name "John L. Millikan"
+description              : &description "Academic homepage and publications of John L. Millikan (LJT), PhD student"
+url                      : https://millikanjohnl-blip.github.io # The base hostname & protocol for your site
+baseurl                  : "" # the subpath of your site, e.g. "/blog". Set to "/LJT-Homepage" if served as a project page
+repository               : "millikanjohnl-blip/LJT-Homepage"
+
+# Site Author - The following control what appear as part of the author content on the side bar.
+#               If a field is blank the icon and link will not appear, otherwise it will be shown.
+#               Additional customization can be done by editing /_includes/author-profile.html
+author:
+  # Biographic information
+  avatar           : "profile.png"
+  name             : "John L. Millikan"
+  pronouns         : # example: "he/him"
+  bio              : "PhD student and researcher"
+  location         : "[City, Country]"
+  employer         : "[University / Lab]"
+  uri              : # URL
+  email            : "john.millikan@example.edu"
+
+  # Academic websites
+  academia         : # URL
+  arxiv            : # URL
+  googlescholar    : "https://scholar.google.com/citations?user=PLACEHOLDER"
+  inspire-hep      : # URL
+  impactstory      : # URL
+  orcid            : "https://orcid.org/0000-0000-0000-0000"
+  semantic         : # URL
+  ssrn             : # URL
+  pubmed           : # URL
+  researchgate     : # URL
+  scopus           : # URL
+  zotero           : # URL
+
+  # Repositories and software development
+  bitbucket        : # Username
+  codepen          : # Username
+  dribbble         : # Username
+  github           : "millikanjohnl-blip"
+  kaggle           : # Username
+  stackoverflow    : # User number or user number and name
+
+  # Social media
+  linkedin         : "john-l-millikan"
+  twitter          : "johnlmillikan"
